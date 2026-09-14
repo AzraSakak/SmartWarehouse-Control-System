@@ -1,0 +1,11 @@
+# CODESYS generated files
+*.compileinfo
+*.bootinfo
+*.bootinfo_guids
+*.precompilecache
+*.opt
+
+# Temporary / backup files
+*.tmp
+*.bak
+*~
