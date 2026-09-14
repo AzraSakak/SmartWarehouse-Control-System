@@ -4,6 +4,12 @@ A PLC-based automated storage and retrieval system developed in CODESYS as an in
 
 The project simulates the control of a smart warehouse using PLC logic, warehouse management algorithms, an HMI, and a simulated Cartesian stacker robot.
 
+## HMI Overview
+
+![SmartWarehouse HMI](smartwarehouse-hmi.png)
+
+The HMI provides real-time monitoring and control of warehouse storage, retrieval, Waiting Area, and simulated stacker operations.
+
 ## Features
 
 - 4 × 4 warehouse rack structure
@@ -73,6 +79,12 @@ The CODESYS Visualization interface provides:
 - Stacker X / Y / Z position monitoring
 - Busy, Homed and Fault status indicators
 - HOME and RESET controls
+
+### Capacity Test
+
+![Warehouse Capacity Test](warehouse-capacity-test.png)
+
+Full-capacity testing was performed to verify independent Warehouse and Waiting Area availability monitoring.
 
 ## Technologies
 
